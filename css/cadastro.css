@@ -1,0 +1,147 @@
+body{
+  font: 16px/1.5 Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #2c2f33	;
+  font-weight: bold;
+}
+
+/* Geral*/
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* HEADER */
+
+header{
+  background-color: #1e2124;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px;
+}
+
+header #logo{
+  float: left;
+}
+
+.marca{
+  width: 160px;
+  padding-bottom: 10px;
+}
+.logo{
+  width: 45px;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #7289da;
+}
+
+header a:hover{
+  color: #ccc;
+}
+
+/* formulario */
+
+#position{
+	margin:30px;
+}
+
+section .signup{
+   margin: auto;   	
+   width: 90%;
+   border-radius: 5px;
+   background-color: #1e2124;
+   border: 1px solid #666666;	   
+}
+
+ form {
+   width: 80%;   
+   margin: auto;   
+   padding-bottom:30px;
+ } 
+
+form p {
+  float: left;
+  width: 50%;
+}
+
+form input {  
+  width: 90%;		
+  line-height: 20px;
+  margin-right:2%;      
+  padding:5px;
+  border: 0;
+  border-bottom: 2px #fff solid;  
+  color: #D6D6D6; 
+  background: #1e2124; 
+  z-index: -1;  
+}
+
+form input:focus {		
+	outline: none;
+}
+
+button {	
+	margin: 10px 0px;
+	margin-bottom: 10px;
+ 	width: 96%;
+  	border:none;
+  	border-radius: 5px;
+  	padding: 5px;
+  	line-height: 25px;
+	background-color: #7289da;
+  	color: #fff;
+  	font-weight: bold;
+}
+
+form label{
+	display: block;
+	color: #fff;
+ }
+
+button:hover {
+	background-color: #667bc4;
+	color: #ccc;	
+	cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer{    
+  margin-top: 50px;
+  color: #fff;
+  background-color:#7289da;
+  
+}
+
+footer p{
+	text-align: center;	
+	padding:5px;
+	margin: 10px;
+}

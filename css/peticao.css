@@ -1,0 +1,17 @@
+body{
+	width: 70%;
+	margin: 0 auto;
+	font: 15px arial, helvetica, sans-serif;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+p{
+	text-align:justify
+}
+
+
+
+.center p{	
+	text-align: center;
+}
